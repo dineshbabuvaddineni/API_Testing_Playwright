@@ -84,7 +84,7 @@ API_Testing_Playwright/
 
 | Date | Topic Completed | Notes |
 |------|-----------------|-------|
-| | | |
+| 29-08-2026|API Testing Basics | Booker: https://restful-booker.herokuapp.com/apidoc/index.html |
 
 ## 📌 How to Run Tests
 
