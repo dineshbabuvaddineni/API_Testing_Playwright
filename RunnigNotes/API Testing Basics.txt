@@ -2,3 +2,9 @@
 We don't need browser context page for api testing we use all of them in UI testing
 
  web testing only
+
+
+ Day2 - fakerjs.dev - for going through the faker related modules for generating random data
+
+ 
+
