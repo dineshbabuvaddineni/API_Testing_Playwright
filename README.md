@@ -84,7 +84,10 @@ API_Testing_Playwright/
 
 | Date | Topic Completed | Notes |
 |------|-----------------|-------|
-| 29-08-2026|API Testing Basics | Booker: https://restful-booker.herokuapp.com/apidoc/index.html |
+| 29-08-2026|API Testing Basics |1.  Explored Restful Booker: https://restful-booker.herokuapp.com/apidoc/index.html <br> 2. Covered POST request creation <br> 3. Applied assertions on response status and body <br> 4. Validated `bookingid` as dynamic Number type using `expect.any()`<br> 5.Validated response fields using `toMatchObject` for partial matching |
+| 30-08-2026|POST Requests with Static & JSON Data |1. Test 001: Created booking with hardcoded static data<br> 2. Test 002: Implemented JSON file reading using `fs` module <br> 3. Created `test_data/post_request_body.json` for external data management <br> 4. Validated nested objects and arrays in response <br> 5. Implemented reusable data-driven approach |
+| 31-08-2026|Dynamic Data Generation with Faker.js |1. Test 003.1: Explored Faker.js library for generating realistic test data <br> 2. Installed @faker-js/faker and luxon libraries <br> 3. Test 003.2: Implemented dynamic booking creation with faker-generated data <br> 4. Generated dynamic values: names, numbers, boolean, dates <br> 5. Practiced date manipulation using DateTime from luxon |
+| 01-09-2026|GET Requests & Query Parameters |1. Test 004: Implemented GET booking details by ID (path parameter) <br> 2. Implemented GET booking search by name (query parameters) <br> 3. Practiced parameterized requests using `params` object <br> 4. Validated response arrays and performed loop-based assertions <br> 5. Verified data type validation for numeric fields |
 
 ## 📌 How to Run Tests
 
