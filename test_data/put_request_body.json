@@ -1,0 +1,11 @@
+{
+    "firstname" : "Balakrishna",
+    "lastname" : "Nandamuri",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2018-01-03",
+        "checkout" : "2019-01-04"
+    },
+    "additionalneeds" : "Idli"
+}
