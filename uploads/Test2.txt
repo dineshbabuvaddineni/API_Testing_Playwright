@@ -1,0 +1,11 @@
+This is Test2.txt
+Line 1: Learning Java improves automation skills.
+Line 2: Collections store groups of objects.
+Line 3: Exception handling improves stability.
+Line 4: SQL is important for QA roles.
+Line 5: API testing validates backend services.
+Line 6: Docker helps with containerization.
+Line 7: Kubernetes manages containers.
+Line 8: DSA helps in SDET interviews.
+Line 9: Practice improves confidence.
+Line 10: End of file.
