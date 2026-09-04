@@ -66,9 +66,7 @@ test("Validate json response with schema2", async ({ request }) => {
     const schema = {
         "type": "object",
         "properties": {
-            "userId": {
-                "type": "number"
-            },
+            //"userId": {"type": "number"},
             "id": {
                 "type": "number"
             },
@@ -84,7 +82,14 @@ test("Validate json response with schema2", async ({ request }) => {
             "id",
             "title",
             "body"
-        ]
+        ],
+        additionalProperties:true,
+
+        //if we want to restrict the response to only the defined properties, we can set additionalProperties to false.
+        //if we want to allow additional properties in the response, we can set additionalProperties to true.
+        //Evethough the response has additional properties, the schema validation will pass because we have set additionalProperties to true.
+        //if we set additionalProperties to false, the schema validation will fail because the response has additional properties.
+        //Eventhough we don't add additionalProperties in the schema, the default value is true. So, the schema validation will pass when the schema doesn't have required properties but the response has additional properties.
     }
 
     //step3: check response against schema
