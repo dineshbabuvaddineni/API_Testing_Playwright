@@ -53,7 +53,7 @@ test('Modify API response',async({request})=>{
 })
 
 //Example3: Modify a live API response using API request
-test.only('Modify a live API response',async({page})=>{
+test('Modify a live API response',async({page})=>{
     await page.route('**/api/v1/fruits',async(route)=>{
         const response=await route.fetch();
         let json=await response.json();
